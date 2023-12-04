@@ -1,0 +1,21 @@
+{
+  "name": "chromodusk-classic-v4",
+  "displayName": "Chromodusk Classic",
+  "description": "A dark color scheme based on the Chromodusk color scheme by leelhn2345, but closer to the original Chromodynamics colors.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chromodusk Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Chromodusk Classic-color-theme.json"
+      }
+    ]
+  }
+}
