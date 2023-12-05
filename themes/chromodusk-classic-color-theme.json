@@ -13,21 +13,46 @@
 		"editorBracketHighlight.foreground6": "#179fff",
     },
     "semanticTokenColors": {
-      "selfParameter": "#E8364F",
-      "selfKeyword": "#E8364F",
-      "clsParameter": "#E8364F",
-      "selfTypeKeyword": "#E8364F",
-    //   "*.typeHint": "#C71585",
+        "selfParameter": "#B0AF95",
+        "selfKeyword": "#E8364F",
+        "clsParameter": "#E8364F",
+        "selfTypeKeyword": "#E8364F",
+        "*.typeHint": "#66D9EF",
     //   "*.callable": "#00FF00",
     //   "tomlTableKey": "#C71585",
     //   "tomlArrayKey": "#C71585",
     //   "derive": "#66cdaa"
     },
     "tokenColors": [
+		{
+			"scope": "text, source",
+			"settings": {
+				"foreground": "#C6C6C6"
+			}
+		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#747475"
+			}
+		},
         {
             "scope": "entity.name.type",
             "settings": {
                 "foreground": "#66D9EF"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.separator",
+                "punctuation.definition.template-expression",
+                "punctuation.accessor",
+                "punctuation.section.function",
+                "punctuation.definition.string.template"
+            ],
+            "settings": {
+                "foreground": "#C6C6C6",
+                "fontStyle": ""
             }
         },
         {
@@ -47,74 +72,96 @@
             }
         },
         {
+            "scope": "storage.type.string.python",
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
+        {
             "scope": ["storage", "storage.type", "keyword"],
             "settings": {
                 "foreground": "#E8364F"
             }
         },
         {
+            "scope": "storage.type.function.python",
+            "settings": {
+                "foreground": "#66D9EF"
+            }
+        },
+        {
             "scope": ["string", "string punctuation.section.embedded source"],
             "settings": {
-				"foreground": "#D3C970"
+                "foreground": "#D3C970"
             }
         },
         {
             "scope": "constant.language",
             "settings": {
-				"foreground": "#9A79D7"
+                "foreground": "#9A79D7"
             }
         },
         {
             "scope": "constant.numeric",
             "settings": {
-				"foreground": "#9A79D7"
+                "foreground": "#9A79D7"
             }
         },
         {
             "scope": "support.type",
             "settings": {
-				"foreground": "#66D9EF",
+                "foreground": "#66D9EF",
                 "fontStyle": ""
             }
         },
         {
             "scope": "support.function",
             "settings": {
-				"foreground": "#66D9EF",
+                "foreground": "#66D9EF",
                 "fontStyle": ""
             }
         },
         {
             "scope": "support.variable",
             "settings": {
-				"foreground": "#66D9EF",
+                "foreground": "#66D9EF",
                 "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other",
+            "settings": {
+                "foreground": "#C6C6C6"
             }
         },
         {
             "scope": "variable.other.constant",
             "settings": {
-				"foreground": "#66D9EF",
+                "foreground": "#9A79D7",
                 "fontStyle": ""
             }
         },
         {
-			"scope": "variable.other.rust",
+            "scope": "variable.other.rust",
 			"settings": {
-				"foreground": "#C6C6C6"
+                "foreground": "#C6C6C6"
 			}
 		},
         {
-			"scope": "variable.other.property",
+            // for np.BUFSIZE
+            // doesn't work; conflict with python properties
+            "scope": "variable.other.property",
 			"settings": {
-				"foreground": "#C6C6C6"
+				"foreground": "#C6C6C6",
+                "fontStyle": "underline"
 			}
 		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#747475"
-			}
-		}
+        {
+            "scope": "support.function.magic",
+            "settings": {
+                "foreground": "#66D9EF",
+                "fontStyle": ""
+            }
+        }
     ]
 }
