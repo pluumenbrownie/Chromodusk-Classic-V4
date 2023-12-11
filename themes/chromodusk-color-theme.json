@@ -84,7 +84,7 @@
     "statusBar.debuggingBackground": "#da3633",
     "statusBarItem.prominentBackground": "#6e768166",
     "statusBarItem.remoteForeground": "#c9d1d9",
-    "statusBarItem.remoteBackground": "#30363d",
+    // "statusBarItem.remoteBackground": "#30363d",
     "statusBarItem.hoverBackground": "#c9d1d914",
     "statusBarItem.activeBackground": "#c9d1d91f",
     "statusBarItem.focusBorder": "#1f6feb",
@@ -256,6 +256,8 @@
     "editorBracketHighlight.foreground4": "#ffd700",
     "editorBracketHighlight.foreground5": "#da70d6",
     "editorBracketHighlight.foreground6": "#179fff",
+    "extensionBadge.remoteBackground": "#007acc",
+		"extensionBadge.remoteForeground": "#ffffff",
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {

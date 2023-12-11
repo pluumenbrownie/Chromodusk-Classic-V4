@@ -18,6 +18,8 @@
         "clsParameter": "#E8364F",
         "selfTypeKeyword": "#E8364F",
         "*.typeHint": "#66D9EF",
+        "deriveHelper.attribute": "#66CDAA",
+        "attributeBracket.attribute": "#DEB887"
     //   "*.callable": "#00FF00",
     //   "tomlTableKey": "#C71585",
     //   "tomlArrayKey": "#C71585",
@@ -153,7 +155,7 @@
             "scope": "variable.other.property",
 			"settings": {
 				"foreground": "#C6C6C6",
-                "fontStyle": "underline"
+                // "fontStyle": "underline"
 			}
 		},
         {
@@ -161,6 +163,34 @@
             "settings": {
                 "foreground": "#66D9EF",
                 "fontStyle": ""
+            }
+        },
+        {
+            "scope": "entity.name.type.enum",
+            "settings": {
+                // "foreground": "#895fff"
+                // "foreground": "#c76cf4"
+                "foreground": "#7897FF"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.brackets.round.rust meta.function.definition.rust"
+            ],
+            "settings": {
+                "foreground": "#A6E22E"
+            }
+        },
+        {
+            "scope": "meta.attribute.rust punctuation.comma.rust",
+            "settings": {
+                "foreground": "#66CDAA",
+            }
+        },
+        {
+            "scope": "comment.line.documentation",
+            "settings": {
+                "foreground": "#00FF7F"
             }
         }
     ]
