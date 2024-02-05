@@ -120,9 +120,9 @@
     "editor.findMatchBackground": "#9e6a03",
     "editor.findMatchHighlightBackground": "#f2cc6080",
     "editor.linkedEditingBackground": "#58a6ff12",
-    "editor.selectionHighlightBackground": "#3fb95040",
-    "editor.wordHighlightBackground": "#6e768180",
-    "editor.wordHighlightBorder": "#6e768199",
+    // "editor.selectionHighlightBackground": "#3fb95040",
+    // "editor.wordHighlightBackground": "#6e768180",
+    // "editor.wordHighlightBorder": "#6e768199",
     "editor.wordHighlightStrongBackground": "#6e76814d",
     "editor.wordHighlightStrongBorder": "#6e768199",
     "editorBracketMatch.background": "#3fb95040",
@@ -258,6 +258,10 @@
     "editorBracketHighlight.foreground6": "#179fff",
     "extensionBadge.remoteBackground": "#007acc",
 		"extensionBadge.remoteForeground": "#ffffff",
+    
+    "editor.selectionHighlightBackground": "#3fb95040",
+    "editor.wordHighlightBackground": "#6e768142",
+    "editor.wordHighlightBorder": "#868f9c99",
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
