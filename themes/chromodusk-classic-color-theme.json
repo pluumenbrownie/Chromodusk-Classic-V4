@@ -192,6 +192,15 @@
             "settings": {
                 "foreground": "#00FF7F"
             }
+        },
+        {
+            "scope": [
+                "constant.character.format", 
+                "storage.type.format.python"
+            ],
+            "settings": {
+                "foreground": "#FF7B72"
+            }
         }
     ]
 }
