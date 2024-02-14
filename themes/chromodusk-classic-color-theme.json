@@ -19,7 +19,8 @@
         "selfTypeKeyword": "#E8364F",
         "*.typeHint": "#66D9EF",
         "deriveHelper.attribute": "#66CDAA",
-        "attributeBracket.attribute": "#DEB887"
+        "attributeBracket.attribute": "#DEB887",
+        "comment.documentation": "#00FF7F", // strange this has to go through semantic
     //   "*.callable": "#00FF00",
     //   "tomlTableKey": "#C71585",
     //   "tomlArrayKey": "#C71585",
@@ -33,11 +34,17 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"foreground": "#747475"
 			}
 		},
+        {
+            "scope": "comment.line.documentation",
+            "settings": {
+                "foreground": "#00FF7F"
+            }
+        },
         {
             "scope": "entity.name.type",
             "settings": {
@@ -98,13 +105,11 @@
             }
         },
         {
-            "scope": "constant.language",
-            "settings": {
-                "foreground": "#9A79D7"
-            }
-        },
-        {
-            "scope": "constant.numeric",
+            "scope": [
+                "constant.language", 
+                "constant.numeric",
+                "constant.character"
+            ],
             "settings": {
                 "foreground": "#9A79D7"
             }
@@ -185,12 +190,6 @@
             "scope": "meta.attribute.rust punctuation.comma.rust",
             "settings": {
                 "foreground": "#66CDAA",
-            }
-        },
-        {
-            "scope": "comment.line.documentation",
-            "settings": {
-                "foreground": "#00FF7F"
             }
         },
         {
