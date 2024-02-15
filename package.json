@@ -1,7 +1,7 @@
 {
   "name": "chromodynamics-v4",
   "displayName": "Chromodynamics Classic (V4)",
-  "description": "The beloved color scheme, now with semantic highlighting.",
+  "description": "The beloved color scheme, now with semantic highlighting. A dark theme.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
