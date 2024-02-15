@@ -1,6 +1,6 @@
 {
-  "name": "chromodusk-classic-v4",
-  "displayName": "Chromodusk Classic",
+  "name": "chromodynamics-v4",
+  "displayName": "Chromodynamics Classic (V4)",
   "description": "The beloved color scheme, now with semantic highlighting.",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Chromodusk Classic",
+        "label": "Chromodynamics Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/chromodusk-classic-color-theme.json"
+        "path": "./themes/chromodynamics-classic-color-theme.json"
       }
     ]
   }
