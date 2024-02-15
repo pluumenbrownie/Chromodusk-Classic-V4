@@ -1,7 +1,7 @@
 {
   "name": "chromodusk-classic-v4",
   "displayName": "Chromodusk Classic",
-  "description": "A dark color scheme based on the Chromodusk color scheme by leelhn2345, but closer to the original Chromodynamics colors.",
+  "description": "The beloved color scheme, now with semantic highlighting.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
