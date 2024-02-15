@@ -3,12 +3,17 @@
   "displayName": "Chromodynamics Classic (V4)",
   "description": "The beloved color scheme, now with semantic highlighting. A dark theme.",
   "version": "1.0.0",
+  "publisher": "pluumenbrownie",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "contributes": {
     "themes": [
       {
