@@ -27,6 +27,12 @@
     //   "derive": "#66cdaa"
     },
     "tokenColors": [
+        {
+          "scope": "variable.language.self.rust",
+          "settings": {
+            "foreground": "#E8364F"
+          }
+        },
 		{
 			"scope": "text, source",
 			"settings": {
