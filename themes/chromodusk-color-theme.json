@@ -259,9 +259,9 @@
     "extensionBadge.remoteBackground": "#007acc",
 		"extensionBadge.remoteForeground": "#ffffff",
     
-    "editor.selectionHighlightBackground": "#3fb95040",
-    "editor.wordHighlightBackground": "#6e768142",
-    "editor.wordHighlightBorder": "#868f9c99",
+    "editor.selectionHighlightBackground": "#4411aa88",
+    "editor.wordHighlightBackground": "#88112288",
+    "editor.wordHighlightBorder": "#868f9c00",
 
     "editorInlayHint.background": "#060606",
     "editorInlayHint.foreground": "#506060",
