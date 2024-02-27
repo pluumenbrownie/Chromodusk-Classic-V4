@@ -6,6 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Changed word hightlight color to red/blue
 - Changed standard Rust `self` color to the red applied by the semantic highlighter
 - Made inlay hints less obtrusive
 
